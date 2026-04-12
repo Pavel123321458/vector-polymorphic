@@ -1,0 +1,18 @@
+gcc main.c vector.c real.c complex.c error.c print.c tests.c -o program.exe -lm
+.\program.exe
+
+
+
+vector_project/
+├── vector.h          - объявления вектора и FieldInfo
+├── vector.c          - реализация вектора (без printf)
+├── real.h            - объявления для double
+├── real.c            - реализация для double
+├── complex.h         - объявления для complex
+├── complex.c         - реализация для complex
+├── error.h           - объявления ошибок
+├── error.c           - реализация ошибок
+├── print.h           - объявления печати
+├── print.c           - реализация печати (с printf)
+├── main.c            - консольный интерфейс и тесты
+└── program.exe       - скомпилированная программа
