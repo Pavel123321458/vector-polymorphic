@@ -40,13 +40,10 @@ TEST(VectorGetTest, EmptyVector) {
 }
 
 TEST(VectorAddTest, DifferentTypes) {
-    // Этот тест показывает, что GoogleTest работает
-    // Проверка сложения векторов разных типов
     EXPECT_TRUE(true);
 }
 
 TEST(DotProductTest, DifferentTypes) {
-    // Этот тест показывает, что GoogleTest работает
     EXPECT_TRUE(true);
 }
 
